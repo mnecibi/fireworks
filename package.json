@@ -1,0 +1,33 @@
+{
+  "name": "firewords",
+  "version": "1.0.0",
+  "description": "Basic architecture of a p5.js app",
+  "main": "sketch.js",
+  "scripts": {
+    "start": "live-server",
+    "dev": "watchify sketch.js -p esmify -o index.js",
+    "build": "browserify sketch.js -p esmify -o index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/THEMahdouch/p5-accelerator.git"
+  },
+  "keywords": [
+    "p5.js", "firewords", "js", "p5"
+  ],
+  "author": "THEMahdouch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/THEMahdouch/p5-accelerator/issues"
+  },
+  "homepage": "https://github.com/THEMahdouch/p5-accelerator#readme",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "eslint": "^6.8.0",
+    "p5": "^1.0.0",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {
+    "esmify": "^2.1.1"
+  }
+}
