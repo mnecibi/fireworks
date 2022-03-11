@@ -26,6 +26,10 @@ let sketch = (p5) => {
                 fireworks.splice(i, 1);
             }
         }
+
+        p5.text("GREAT JOB!", p5.width / 2, p5.height / 2);
+        p5.textSize(32);
+        p5.textAlign(p5.CENTER);
     }
 }
 
