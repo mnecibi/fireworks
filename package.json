@@ -1,7 +1,7 @@
 {
   "name": "firewords",
   "version": "1.0.0",
-  "description": "Basic architecture of a p5.js app",
+  "description": "Fireworks using p5.js",
   "main": "sketch.js",
   "scripts": {
     "start": "live-server",
@@ -10,17 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/THEMahdouch/p5-accelerator.git"
+    "url": "git+ssh://git@github.com/THEMahdouch/fireworks.git"
   },
   "keywords": [
-    "p5.js", "firewords", "js", "p5"
+    "p5.js",
+    "firewords",
+    "js",
+    "p5"
   ],
-  "author": "THEMahdouch",
+  "author": "Mehdi Necibi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/THEMahdouch/p5-accelerator/issues"
+    "url": "https://github.com/THEMahdouch/fireworks/issues"
   },
-  "homepage": "https://github.com/THEMahdouch/p5-accelerator#readme",
+  "homepage": "https://github.com/THEMahdouch/fireworks#readme",
   "dependencies": {
     "browserify": "^16.5.1",
     "eslint": "^6.8.0",
