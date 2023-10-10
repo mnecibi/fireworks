@@ -13,6 +13,6 @@ FROM nginx:latest
 
 WORKDIR /usr/share/nginx/html
 
-COPY index.html --from=build /usr/share/nginx/html/
+COPY --from=builder index.html /usr/share/nginx/html/
 
-COPY index.js --from=build /usr/share/nginx/html/
+COPY --from=builder index.js /usr/share/nginx/html/
