@@ -15,4 +15,4 @@ WORKDIR /usr/share/nginx/html
 
 COPY index.html --from=build /usr/share/nginx/html/
 
-COPY /build/dist/index.js --from=build /usr/share/nginx/html/
+COPY index.js --from=build /usr/share/nginx/html/
